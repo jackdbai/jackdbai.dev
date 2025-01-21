@@ -1,0 +1,40 @@
+baseURL = 'https://blog.jackdbai.dev/'
+languageCode = 'en-us'
+title = 'JackDBlog'
+theme = 'smol'
+
+# Parameters
+[params]
+    subtitle = "+JMJ+"
+    dateFmt = "2006/01/02"
+
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 1 
+
+  [[menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories/"
+        weight = 2 
+
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+
+# Footer
+  [[menu.footer]]
+        name = "Bluesky"
+        url = "https://bsky.app/profile/jackdbai.dev"
+        weight = 1 
+
+    [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/jackdbai"
+        weight = 2 
